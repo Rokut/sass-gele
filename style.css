@@ -1,0 +1,24 @@
+body {
+  background: #52B3D9;
+  color: white;
+  overflow: hidden;
+}
+
+h1 {
+  padding-top: 20vh;
+  font-size: 8vw;
+  position: relative;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #003300 100, 0, 30, 0.5;
+  z-index: 1000;
+  margin: 0;
+}
+
+.fadeIn {
+  opacity: 0;
+  -webkit-animation: fadeIn 1s 2s ease-in forwards;
+          animation: fadeIn 1s 2s ease-in forwards;
+}
+/*# sourceMappingURL=style.css.map */
